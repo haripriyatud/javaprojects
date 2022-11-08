@@ -1,6 +1,7 @@
+package com.stringexample;
+
 public class StringExample {
-	  
-	public static void main(String[] args){
+public static void main(String[] args){
 		
 		String str= "Java string.";
 		String morestr="Please Pratice";
@@ -17,19 +18,18 @@ public class StringExample {
 		System.out.println(str.equals(strduplicate));
 		System.out.println(str.equalsIgnoreCase(strduplicate));
 	
-		//using string buffer
+		
 		StringBuffer sbuffer=new StringBuffer("Java String.");
 		System.out.println(sbuffer.append(morestr));
 		System.out.println(sbuffer.insert(sbuffer.length(), " more"));
 		System.out.println(sbuffer.delete(sbuffer.length()-4, sbuffer.length()));
 		
-		//using string builder
 		StringBuilder sbuilder=new StringBuilder("Java String.");
 		System.out.println(sbuilder.append(morestr));
 		System.out.println(sbuilder.insert(sbuilder.length(), " more"));
 		System.out.println(sbuilder.delete(sbuilder.length()-4, sbuilder.length()));
 		
 	}
+	
 
 }
-
