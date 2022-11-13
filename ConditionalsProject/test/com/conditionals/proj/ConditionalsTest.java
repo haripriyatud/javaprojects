@@ -22,7 +22,7 @@ public class ConditionalsTest {
 		LocalTime current_time = LocalTime.now();
 		int hour = current_time.getHour();
 		String greeting = conditional.printGreeting(hour);
-		assertEquals("Good Afternoon", greeting);
+		assertEquals("Good Morning", greeting);
 	}
 
 	@Test
