@@ -1,14 +1,12 @@
 package com.arraysexample;
 
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
-import java.util.Arrays;
-import java.util.List;
+
 import java.util.OptionalInt;
 import java.util.stream.IntStream;
 

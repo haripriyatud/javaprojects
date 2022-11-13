@@ -50,34 +50,29 @@ public class ConditionalsTest {
 		int days = conditional.printNumberOfMonths(date);
 		assertEquals(31, days);
 	}
-	
-	
+
 	@Test
 	public void isoddorevenTestwithOdd() {
 		String result = conditional.isOddorEven(5);
 		assertEquals("odd", result);
 	}
-	
+
 	@Test
-	public void isoddorevenTestwithEven(){
+	public void isoddorevenTestwithEven() {
 		String result = conditional.isOddorEven(6);
 		assertEquals("even", result);
-	}	
-	
+	}
+
 	@Test
 	public void numberofDigitsTest3Digits() {
 		long digits = conditional.countDigit(457);
 		assertEquals(3, digits);
 	}
-	
-	
+
 	@Test
 	public void numberofDigitsTest7Digits() {
 		long digits = conditional.countDigit(4577834);
 		assertEquals(7, digits);
 	}
-	
-	
-	
-	
+
 }
