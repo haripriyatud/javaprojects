@@ -7,9 +7,6 @@ public class Employee {
 	private double salary;
 	private int yearsExperience;
 
-	
-
-
 	public Employee(int emp_id, String name, String designation, double salary, int yearsExperience) {
 		super();
 		this.emp_id = emp_id;
@@ -42,6 +39,7 @@ public class Employee {
 	public void setDesignation(String designation) {
 		this.designation = designation;
 	}
+
 	public double getSalary() {
 		return salary;
 	}
