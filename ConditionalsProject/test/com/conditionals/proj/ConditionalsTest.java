@@ -1,6 +1,6 @@
 package com.conditionals.proj;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -17,13 +17,11 @@ public class ConditionalsTest {
 		assertEquals("Good Afternoon", greeting);
 	}
 
-	@Test
-	public void currentGreetingTest() {
-		LocalTime current_time = LocalTime.now();
-		int hour = current_time.getHour();
-		String greeting = conditional.printGreeting(hour);
-		assertEquals("Good Afternoon", greeting);
-	}
+	/*
+	 * @Test public void currentGreetingTest() { LocalTime current_time =
+	 * LocalTime.now(); int hour = current_time.getHour(); String greeting =
+	 * conditional.printGreeting(hour); assertEquals("Good Afternoon", greeting); }
+	 */
 
 	@Test
 	public void numberofDaysTest() {
