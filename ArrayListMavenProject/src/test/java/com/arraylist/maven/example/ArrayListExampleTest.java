@@ -1,4 +1,4 @@
-package com.arraylist.maven.com.arraylist.example;
+package com.arraylist.maven.example;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -14,6 +14,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
+
+import com.arraylist.maven.example.ArrayListExample;
 
 public class ArrayListExampleTest {
 

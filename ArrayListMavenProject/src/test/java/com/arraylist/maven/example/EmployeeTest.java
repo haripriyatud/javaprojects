@@ -1,4 +1,4 @@
-package com.arraylist.maven.com.arraylist.example;
+package com.arraylist.maven.example;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -13,6 +13,8 @@ import java.util.stream.Collectors;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import com.arraylist.maven.example.Employee;
 
 public class EmployeeTest {
 

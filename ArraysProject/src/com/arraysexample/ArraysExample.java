@@ -36,11 +36,10 @@ public class ArraysExample {
 
 		return Arrays.stream(numbers).sorted();
 	}
-	
+
 	public void sort_reverse_order(Integer numbers[]) {
 		Arrays.sort(numbers, Collections.reverseOrder());
 	}
-	
 
 	public IntStream findOnlyEven(int numbers[]) {
 
@@ -66,11 +65,5 @@ public class ArraysExample {
 		Arrays.sort(numbers);
 		return Arrays.binarySearch(numbers, key);
 	}
-
-	
-	
-	
-	
-	
 
 }

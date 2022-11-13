@@ -1,4 +1,4 @@
-package com.arraylist.maven.com.arraylist.example;
+package com.arraylist.maven.example;
 
 import java.util.Comparator;
 import java.util.List;

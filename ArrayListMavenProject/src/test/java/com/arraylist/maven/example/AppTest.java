@@ -1,4 +1,4 @@
-package com.arraylist.maven.com.arraylist.example;
+package com.arraylist.maven.example;
 
 import org.junit.jupiter.api.Test;
 
