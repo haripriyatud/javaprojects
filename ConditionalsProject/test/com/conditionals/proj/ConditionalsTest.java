@@ -29,6 +29,14 @@ public class ConditionalsTest {
 		int days = conditional.printNumberOfMonths(date);
 		assertEquals(30, days);
 	}
+	
+	@Test
+	public void printNumberOfMonthsJava17Syntax() {
+		LocalDate date = LocalDate.now();
+		int days = conditional.printNumberOfMonthsJava17Syntax(date);
+		assertEquals(30, days);
+	}
+	
 
 	@Test
 	public void numberofDaysFeburaryLeapYearTest() {
